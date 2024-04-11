@@ -35,7 +35,6 @@ export default {
     function incrementPension(){
       pension.value++;
     }
-
     // reactive, computed
 
     const state = reactive({
@@ -82,9 +81,8 @@ export default {
       }
 
     }
+
     
-
-
     return {
       pension, incrementPension, ...toRefs(state), makeOrder, 
       shares, sharePrice, sharesValue, changeNumberOfShares
